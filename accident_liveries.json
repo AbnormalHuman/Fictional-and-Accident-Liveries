@@ -1,0 +1,79 @@
+{
+    "name": "SQ981's Livery Pack",
+    "color": "white",
+    "bgcolor": "white",
+    "aircrafts": {
+        "239": {
+            "name": "Airbus a350-900",
+            "liveries": [
+              {
+                  "name":  "Pan Am",
+                  "texture": [
+                      "https://raw.githubusercontent.com/Ecksar/liveries/refs/heads/main/A359-Pan-Am.png",
+                  ],
+                  "credits": "SQ981"
+              }
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "25": {
+            "name": "Boeing b777-300ER",
+            "liveries": [
+              {
+                  "name":  "Garuda Indonesia (Skyteam)",
+                  "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/Ecksar/liveries/refs/heads/main/garuda_skyteam2.png"
+                  ],
+                  "credits": "SQ981"
+              },
+              {
+                  "name":  "Qatar (Oneworld)",
+                  "texture": [
+                        "/models/aircraft/premium/777_300/specular_0.jpg",
+                        "https://raw.githubusercontent.com/Ecksar/liveries/refs/heads/main/B77W-qatar-oneworld.png"
+                  ],
+                  "credits": "SQ981 and AusboyX"
+              }
+            ],
+            "labels": [
+                "Specular shader",
+                "Texture"
+            ]
+        },
+        "29": {
+            "name": "Dassault Rafale",
+            "liveries": [
+                {
+                    "name": "Erusean Royal Navy (SACS)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
+                        "https://raw.githubusercontent.com/Ecksar/liveries/refs/heads/main/SACS.png",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
+                        "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
+                    ],
+                "credits": "SQ981"
+                },
+            ],
+            "labels":[
+                "Normal map",
+                "Main texture",
+                "Specular shader",
+                "Cockpit texture"
+            ]
+        },
+        "2857": {
+            "name": "Lokheed Martin F22 Raptor",
+            "liveries": [
+                "https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/F22-Strider-1.png",
+                "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/liveries/f22/shaders/simple.png"
+            ],
+            "labels": [
+                "Texture",
+                "Metallic Roughness shader"
+            ]
+        }
+    }
+}
