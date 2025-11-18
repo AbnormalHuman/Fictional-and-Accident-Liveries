@@ -1,7 +1,8 @@
+
 {
-    "name": "SQ981's Livery Pack",
+    "name": "Ultimate Livery Pack",
     "color": "white",
-    "bgcolor": "white",
+    "bgcolor": "black",
     "aircrafts": {
         "1": {
             "name": "Piper J3 Cub",
@@ -245,20 +246,6 @@
         "239": {
             "name": "Airbus a350-900",
             "liveries": [
-              {
-                  "name":  "Pan Am",
-                  "texture": [
-                      "https://raw.githubusercontent.com/Ecksar/liveries/refs/heads/main/liveries/A359-Pan-Am.png",
-                  ],
-                  "credits": "SQ981"
-                },
-                {
-                  "name":  "Polaris",
-                  "texture": [
-                      "https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/Polaris-A359.png",
-                  ],
-                  "credits": "SQ981"
-              }
             ],
             "labels": [
                 "Texture"
@@ -433,6 +420,23 @@
         "24": {
             "name": "Airbus a350-900",
             "liveries": [
+                
+              {
+                  "name":  "Pan Am",
+                  "texture": [
+                      "/models/aircraft/premium/a350/specular.jpg",
+                      "https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/A359-Pan-Am.png"
+                  ],
+                  "credits": "SQ981"
+                },
+                {
+                  "name":  "Nordstar",
+                  "texture": [
+                      "/models/aircraft/premium/a350/specular.jpg",
+                      "https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/Nordstar-a359.png"
+                  ],
+                  "credits": "SQ981"
+              }
             ],
             "labels": [
                 "Specular shader",
@@ -486,7 +490,7 @@
                   "name":  "Garuda Indonesia (Skyteam)",
                   "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/Ecksar/liveries/refs/heads/main/liveries/garuda_skyteam2.png"
+                        "https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/garuda_skyteam2.png"
                   ],
                   "credits": "SQ981"
               },
@@ -494,7 +498,7 @@
                   "name":  "Qatar (Oneworld)",
                   "texture": [
                         "/models/aircraft/premium/777_300/specular_0.jpg",
-                        "https://raw.githubusercontent.com/Ecksar/liveries/refs/heads/main/liveries/B77W-qatar-oneworld.png"
+                        "https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/B77W-qatar-oneworld.png"
                   ],
                   "credits": "SQ981 and AusboyX"
               }
@@ -552,16 +556,13 @@
         "5073": {
             "name": "Bombardier Learjet45",
             "liveries": [
+                {
+                    "name":  "Nordstar",
+                  "texture": ["https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/Nordstar-learjet.png"],
+                  "credits": "SQ981"
+                }
             ],
             "labels": [
-                "Texture"
-            ]
-        },"25": {
-            "name": "Boeing b777-300ER",
-            "liveries": [
-            ],
-            "labels": [
-                "Specular shader",
                 "Texture"
             ]
         },
@@ -596,9 +597,7 @@
             "liveries": [
                 {
                 "name": "Republic of Singapore Air Force (50th Anniversary)",
-                    "texture": [
-                    "https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/RSAF-A330MRTT.png"
-                    ],
+                    "texture": ["https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/RSAF-A330MRTT.png"],
                     "credits": "SQ981"
                 }
             ],
@@ -735,27 +734,19 @@
                 "Engine texture"
             ]
         },
-        "29": {"2857": {
-            "name": "Lokheed Martin F22 Raptor",
-            "liveries": [
-            ],
-            "labels": [
-                "Texture",
-                "Metallic Roughness shader"
-            ]
-        },
+        "29": {
             "name": "Dassault Rafale",
             "liveries": [
                 {
                     "name": "Erusean Royal Navy (SACS)",
                     "texture": [
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/normal/Image_0.jpg",
-                        "https://raw.githubusercontent.com/Ecksar/liveries/refs/heads/main/liveries/SACS.png",
+                        "https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/SACS.png",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/specular/Image_2.jpg",
                         "https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/liveries/dessault_rafale/cockpit/Image_4.jpg"
                     ],
                 "credits": "SQ981"
-                },
+                }
             ],
             "labels":[
                 "Normal map",
@@ -948,6 +939,28 @@
         "5551": {
             "name": "Comac C919",
             "liveries": [
+            ],
+            "labels": [
+                "Texture"
+            ]
+        },
+        "5211": {
+            "name": "Boeing 747SP",
+            "liveries": [
+                {
+                    "name": "Pan Am (Clipper Mayflower)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/panam-747sp-n530pa.png"
+                    ],
+                    "credits": "luca b"
+                },
+                {
+                    "name": "Pan Am (Clipper Freedom)",
+                    "texture": [
+                        "https://raw.githubusercontent.com/sckntird/liveries/refs/heads/main/liveries/panam-747sp-n531pa.png"
+                    ],
+                    "credits": "AF267"
+                }
             ],
             "labels": [
                 "Texture"
